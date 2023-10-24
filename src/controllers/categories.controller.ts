@@ -1,4 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
+import { StatusCodes } from 'http-status-codes';
+import { z } from 'zod';
 
 import { CategoriesRepository } from '../database/repositories/categories.repository';
 import { CategoryModel } from '../database/schemas/category.schema';
@@ -19,7 +21,7 @@ export class CategoriesController {
 
       const result = await service.create({ title, color });
 
-      return res.status(201).json(result);
+      return res.status(StatusCodes.CREATED).json(result);
     } catch (err) {
       next(err);
     }
