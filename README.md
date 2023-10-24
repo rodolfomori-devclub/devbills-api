@@ -18,7 +18,7 @@
 
     - por ano
 
-# Criar categorias
+# Criar categorias (DONE)
 
     - nome, cor
     - Não é possível criar categorias com o mesmo nome
