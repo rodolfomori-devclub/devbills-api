@@ -1,4 +1,4 @@
-# Criar transações
+# Criar transações (DONE)
 
     - id categoria, nome, valor, data, tipo
 
