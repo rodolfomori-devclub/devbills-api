@@ -8,15 +8,15 @@
     - por período (início e fim)
     - por categoria
 
-# Dados de saldo com filtros
+# Dados de saldo com filtros (DONE)
 
     - por período (início e fim)
 
-# Dados de despesas por categoria com filtros
+# Dados de despesas por categoria com filtros (DONE)
 
     - por período
 
-# Dados de balanço com filtros
+# Dados de balanço geral do ano com filtros
 
     - por ano
 
